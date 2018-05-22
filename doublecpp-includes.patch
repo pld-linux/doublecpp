@@ -1,0 +1,50 @@
+--- doublecpp-0.6.3/src/sourcemodifier.cpp.orig	2006-07-25 23:12:39.000000000 +0200
++++ doublecpp-0.6.3/src/sourcemodifier.cpp	2018-05-22 19:00:04.928332158 +0200
+@@ -9,6 +9,7 @@
+  ***************************************************************************/
+ 
+ #include <assert.h>
++#include <cstdlib>
+ #include <iostream> // TODO: remove it when changed ProgElems cons
+ 
+ #include "my_sstream.h"
+--- doublecpp-0.6.3/src/sourceanalyser.cpp.orig	2006-07-25 23:12:40.000000000 +0200
++++ doublecpp-0.6.3/src/sourceanalyser.cpp	2018-05-22 19:00:54.674998257 +0200
+@@ -8,6 +8,7 @@
+  *   (at your option) any later version.                                   *
+  ***************************************************************************/
+ 
++#include <cstdlib>
+ #include "sourceanalyser.h"
+ #include "fileutil.h"
+ #include "progelems.hpp"
+--- doublecpp-0.6.3/src/branchanalyser.cpp.orig	2006-07-25 23:12:40.000000000 +0200
++++ doublecpp-0.6.3/src/branchanalyser.cpp	2018-05-22 19:01:26.981664554 +0200
+@@ -9,6 +9,7 @@
+  ***************************************************************************/
+ 
+ #include <assert.h>
++#include <cstdlib>
+ 
+ #include "branchanalyser.h"
+ #include "multimethods.h"
+--- doublecpp-0.6.3/src/parambinder.cpp.orig	2006-07-25 23:12:40.000000000 +0200
++++ doublecpp-0.6.3/src/parambinder.cpp	2018-05-22 19:02:40.174997053 +0200
+@@ -10,6 +10,7 @@
+ #include "parambinder.h"
+ 
+ #include <assert.h>
++#include <cstdlib>
+ 
+ #include "classdecl.h"
+ #include "methparams.h"
+--- doublecpp-0.6.3/src/programanalyser.cpp.orig	2006-03-28 10:12:13.000000000 +0200
++++ doublecpp-0.6.3/src/programanalyser.cpp	2018-05-22 19:02:58.041663518 +0200
+@@ -7,6 +7,7 @@
+  *   the Free Software Foundation; either version 2 of the License, or     *
+  *   (at your option) any later version.                                   *
+  ***************************************************************************/
++#include <cstdlib>
+ #include "programanalyser.h"
+ 
+ #include "multimethods.h"
